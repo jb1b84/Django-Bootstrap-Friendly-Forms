@@ -27,9 +27,10 @@ worry about which one you place the templatetags in.
 There are two components here (forms and datepicker) that you can choose to use individually, but they play well together when using Django and Bootstrap.
 
 ##Bootstrap Forms
-The two template tags do most of our work here
-*add_attrs.py - Adds the `class="form-control"` attribute to inputs needed by Bootstrap for proper styling
-*is_checkbox - Checks if the input is a *checkbox* type so that we can style it differently.
+The two template tags do most of our work here.
+
+* add_attrs.py - Adds the `class="form-control"` attribute to inputs needed by Bootstrap for proper styling
+* is_checkbox - Checks if the input is a *checkbox* type so that we can style it differently.
 
 `bootstrap_form.html` is your base reusable template. I have included some error handling but you can tweak as needed. Just include it wherever you would normally print out your form, as in *book_form.html* `{% include 'myapp/bootstrap_form.html'%}`
 
