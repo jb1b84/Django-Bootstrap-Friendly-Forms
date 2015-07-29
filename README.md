@@ -21,7 +21,7 @@ myapp/
 	fields.py
 	*models.py
 ```
-Files marked by (*) are provided in the **EXAMPLES** folder and need to be customized to your own app. All other files are ready to go, just place them in your app accordingly. If you have multiple apps, don't
+Files marked by `*` are provided in the **EXAMPLES** folder and need to be customized to your own app. All other files are ready to go, just place them in your app accordingly. If you have multiple apps, don't
 worry about which one you place the templatetags in.
 
 There are two components here (forms and datepicker) that you can choose to use individually, but they play well together when using Django and Bootstrap.
